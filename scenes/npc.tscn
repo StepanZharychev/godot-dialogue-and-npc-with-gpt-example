@@ -30,7 +30,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
-"speed": 5.0
+"speed": 3.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_430cj"]
@@ -118,7 +118,7 @@ shape = SubResource("CircleShape2D_l4qws")
 scale = Vector2(2.4, 2.4)
 sprite_frames = SubResource("SpriteFrames_ssbb2")
 animation = &"idle"
-frame_progress = 0.167635
+frame_progress = 0.666395
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, -5)

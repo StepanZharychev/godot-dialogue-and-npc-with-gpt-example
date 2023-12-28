@@ -1,0 +1,56 @@
+[gd_scene load_steps=10 format=3 uid="uid://cobiscecmwd3b"]
+
+[ext_resource type="Script" path="res://scripts/active_npc.gd" id="1_mduxh"]
+[ext_resource type="Texture2D" uid="uid://ilnap8a2ulty" path="res://assets/characters/npc-boy/idle1.png" id="1_slh7h"]
+[ext_resource type="Texture2D" uid="uid://1v28a4gp183q" path="res://assets/characters/npc-boy/idle2.png" id="2_r8xj5"]
+[ext_resource type="Texture2D" uid="uid://4ildrtfl55jp" path="res://assets/characters/npc-boy/idle3.png" id="3_7553w"]
+[ext_resource type="Texture2D" uid="uid://d3rd62pyd3dy1" path="res://assets/characters/npc-boy/idle4.png" id="4_ytnns"]
+[ext_resource type="Texture2D" uid="uid://bx00jyd4fl0w4" path="res://assets/characters/npc-boy/idle5.png" id="5_ltby3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gc5e4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_slh7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_r8xj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7553w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ytnns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ltby3")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_unx5i"]
+radius = 48.0
+height = 196.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0lwrw"]
+radius = 172.569
+
+[node name="ActiveNpc" type="Area2D"]
+script = ExtResource("1_mduxh")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2.4, 2.4)
+sprite_frames = SubResource("SpriteFrames_gc5e4")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(13, 0)
+shape = SubResource("CapsuleShape2D_unx5i")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_0lwrw")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
