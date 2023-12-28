@@ -1,0 +1,144 @@
+[gd_scene load_steps=13 format=3 uid="uid://doup7gchq72qr"]
+
+[ext_resource type="Texture2D" uid="uid://bvkctoeqhvqjv" path="res://assets/characters/npc-girl/idle1.png" id="1_f1ua5"]
+[ext_resource type="Script" path="res://scripts/npc.gd" id="1_vg2pm"]
+[ext_resource type="Texture2D" uid="uid://cipr2gicbt3sc" path="res://assets/characters/npc-girl/idle2.png" id="2_ngn46"]
+[ext_resource type="Texture2D" uid="uid://dm77kxkdkvp6o" path="res://assets/characters/npc-girl/idle3.png" id="3_auuqc"]
+[ext_resource type="Texture2D" uid="uid://5yl1v222jy1s" path="res://assets/characters/npc-girl/idle4.png" id="4_iyirn"]
+[ext_resource type="Texture2D" uid="uid://clc8hiilr3f5s" path="res://assets/characters/npc-girl/idle5.png" id="5_lyll0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_l4qws"]
+radius = 334.44
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ssbb2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_f1ua5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ngn46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_auuqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_iyirn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_lyll0")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_430cj"]
+radius = 17.0
+height = 82.0
+
+[sub_resource type="Animation" id="Animation_ii4bx"]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-31, -121), Vector2(-31, -139)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_36opd"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-31, -121)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_duopp"]
+_data = {
+"RESET": SubResource("Animation_36opd"),
+"fade_in": SubResource("Animation_ii4bx")
+}
+
+[node name="NPC" type="Area2D"]
+script = ExtResource("1_vg2pm")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_l4qws")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2.4, 2.4)
+sprite_frames = SubResource("SpriteFrames_ssbb2")
+animation = &"idle"
+frame_progress = 0.167635
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -5)
+scale = Vector2(2.4, 2.4)
+shape = SubResource("CapsuleShape2D_430cj")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Label")
+libraries = {
+"": SubResource("AnimationLibrary_duopp")
+}
+
+[node name="LabelDispose" type="Timer" parent="."]
+wait_time = 10.0
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -31.0
+offset_top = -121.0
+offset_right = 34.0
+offset_bottom = -87.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(32.5, 17)
+theme_override_font_sizes/font_size = 24
+text = "Wow!"
+horizontal_alignment = 1
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="timeout" from="LabelDispose" to="." method="_on_label_dispose_timeout"]
