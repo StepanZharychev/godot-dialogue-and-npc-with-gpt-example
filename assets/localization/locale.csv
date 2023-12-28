@@ -1,7 +1,67 @@
 keys,en,ru
 STANDARD_REACTION,*mumbles*,*бормочет*
-REACTION_S_HIGH_I_LOW_1,"Muscles over mind, I guess.","Мускулы вместо ума, видимо."
-REACTION_S_HIGH_I_LOW_2,"Strength, but not much else.","Сила, но вот ума не хватает."
-REACTION_S_HIGH_I_LOW_3,Could use an intelligence boost.,Неплохо было бы увеличить интеллект.
-REACTION_S_HIGH_I_LOW_4,"Trees: 1, Hero: 0.","Деревья: 1, Герой: 0."
-REACTION_S_HIGH_I_LOW_5,"Need help with puzzles, buddy?","Нужна помощь с головоломками, приятель?"
+REACTION_STR_HIGH_INT_LOW_1,"Muscles over mind, I guess.","Мускулы вместо ума, видимо."
+REACTION_STR_HIGH_INT_LOW_2,"Strength, but not much else.","Сила, но вот ума не хватает."
+REACTION_STR_HIGH_INT_LOW_3,Could use an intelligence boost.,Неплохо было бы увеличить интеллект.
+REACTION_STR_HIGH_INT_LOW_4,"Trees: 1, Hero: 0.","Деревья: 1, Герой: 0."
+REACTION_STR_HIGH_INT_LOW_5,"Need help with puzzles, buddy?","Нужна помощь с головоломками, приятель?"
+REACTION_STR_HIGH_1,Strong and solid—perfect!,Сильный и надежный — идеально!
+REACTION_STR_HIGH_2,Our town's powerhouse!,Сила нашего города!
+REACTION_STR_HIGH_3,A real force for good.,Настоящая сила добра.
+REACTION_STR_HIGH_4,"Muscles like that, no worries!",С такими мышцами — никаких забот!
+REACTION_STR_HIGH_5,Game-changer strength—awesome!,"Сила, изменившая игру — круто!"
+REACTION_STR_HIGH_DEX_LOW_1,Powerful but graceless.,"Мощный, но неуклюжий."
+REACTION_STR_HIGH_DEX_LOW_2,"Mighty, but watch those feet.","Могущественный, но следи за ногами."
+REACTION_STR_HIGH_DEX_LOW_3,"Brawns, not balance.","Сила, не ловкость."
+REACTION_STR_HIGH_DEX_LOW_4,"Lifts mountains, stumbles on pebbles.","Поднимает горы, спотыкается о камушки."
+REACTION_STR_HIGH_DEX_LOW_5,"Muscles galore, no finesse.","Мускулы в избытке, но нет изящества."
+REACTION_DEX_HIGH_STR_LOW_1,"Graceful, not strong.","Гибкий, не сильный."
+REACTION_DEX_HIGH_STR_LOW_2,"Agile, not robust.","Ловкий, но не прочный."
+REACTION_DEX_HIGH_STR_LOW_3,"Dances well, can't lift much.","Танцует хорошо, но не поднимет много веса."
+REACTION_DEX_HIGH_STR_LOW_4,"Swift, not mighty.","Быстрый, но не могучий."
+REACTION_DEX_HIGH_STR_LOW_5,"Light on feet, heavy on skill.","Легкий на ногах, сильно на мастерство."
+REACTION_CON_HIGH_INT_LOW_1,Tough but not brainy.,"Крепкий, но неумный."
+REACTION_CON_HIGH_INT_LOW_2,"Resilient, not a thinker.","Стойкий, но не мыслитель."
+REACTION_CON_HIGH_INT_LOW_3,"Sturdy, not smart.","Крепкий, но не особо умный."
+REACTION_CON_HIGH_INT_LOW_4,"Built to last, not to strategize.","Как крепость, но не стратег."
+REACTION_CON_HIGH_INT_LOW_5,"Tough skin, not sharp mind.","Может выдержать удар, но не придумает стратегию."
+REACTION_INT_HIGH_CON_LOW_1,Brainy but fragile.,"Острый ум, но хрупкий."
+REACTION_INT_HIGH_CON_LOW_2,"Smart, not sturdy.","Умный, но не стойкий."
+REACTION_INT_HIGH_CON_LOW_3,"Clever, not durable.","Ловкий ум, не долговечный."
+REACTION_INT_HIGH_CON_LOW_4,"Brains, not brawn.","Умный, не крепкий."
+REACTION_INT_HIGH_CON_LOW_5,"Solves puzzles, can't take a punch.","Решает головоломки, не выдержит удар."
+REACTION_WIS_HIGH_CHA_LOW_1,"Wise, not charming.","Мудр, но не обаятелен."
+REACTION_WIS_HIGH_CHA_LOW_2,"Insightful, not sociable.","Прозорлив, но не общительный."
+REACTION_WIS_HIGH_CHA_LOW_3,"Aware, not charismatic.","Осторожен, не харизматичен."
+REACTION_WIS_HIGH_CHA_LOW_4,"Good instincts, awkward talks.","Хороший инстинкт, но неловкое общение."
+REACTION_WIS_HIGH_CHA_LOW_5,"Wise, not diplomatic.","Мудр, но не дипломатичен."
+REACTION_CHA_HIGH_WIS_LOW_1,"Charming, not wise.","Обаятельный, но не мудрый."
+REACTION_CHA_HIGH_WIS_LOW_2,"Persuasive, not perceptive.","Убедительный, но не восприимчив к деталям."
+REACTION_CHA_HIGH_WIS_LOW_3,"Life of the party, not strategic.","Душа вечеринки, не стратег."
+REACTION_CHA_HIGH_WIS_LOW_4,"Talkative, not wise.","Болтлив, но не мудр в своих решениях."
+REACTION_CHA_HIGH_WIS_LOW_5,"Charismatic, lacking sense.","Харизматичен, но не обладает здравым смыслом."
+REACTION_DEX_HIGH_1,Swift as an arrow! Deadly and quick.,Ловкий как стрела! Смертоносен и быстр.
+REACTION_DEX_HIGH_2,Moves like a shadow—silent and deadly.,Двигается как тень — бесшумен и смертоносен.
+REACTION_DEX_HIGH_3,Battlefield dancer. Impossible to catch.,Танцует на поле боя. Невозможно его поймать.
+REACTION_DEX_HIGH_4,Lightning-quick reflexes. Blink and miss.,Молниеносные рефлексы. Мигни и пропусти.
+REACTION_DEX_HIGH_5,Stealing a dragon's hoard? Easy for them.,Украсть сокровища у дракона? Легко.
+REACTION_CON_HIGH_1,Indestructible fortress! Built to last.,Как неприступная крепость! Практически неуязвим.
+REACTION_CON_HIGH_2,"Endures hurricanes, loves a tavern brawl.","Выдержит ураган, полюбит потасовку в таверне."
+REACTION_CON_HIGH_3,Sturdy as an oak. Trust them in battle.,Крепкий как дуб. Доверяй в бою.
+REACTION_CON_HIGH_4,No sweat after dragon's breath. Literally.,Не испытывает усталости даже после дыхания дракона.
+REACTION_CON_HIGH_5,Constitution of a troll—nothing fazes them.,Выносливость тролля — ничто им не страшно.
+REACTION_INT_HIGH_1,Genius hero! Bringing brains to the brawl.,"Гений среди героев! Ум, приносящий пользу в битве."
+REACTION_INT_HIGH_2,Strategy in every step. Brains over brawn.,Стратегия в каждом шаге. Ум впереди силы.
+REACTION_INT_HIGH_3,Scholar of the party. Clever solutions.,Ученый в команде. Умные решения.
+REACTION_INT_HIGH_4,"Outwits a Sphinx, outsmarts a wizard.","Перехитрит сфинкса, обскакает волшебника."
+REACTION_INT_HIGH_5,Mind over muscle. Intellectual powerhouse.,Разум против мускулов. Интеллектуальная мощь.
+REACTION_WIS_HIGH_1,Wise sage hero. Trust their instincts.,Мудрый мудрец среди героев. Доверяю его инстинктам.
+REACTION_WIS_HIGH_2,Eyes sharp as an eagle's. Spot danger first.,"Взгляд остр, как у орла. Замечает опасность первым."
+REACTION_WIS_HIGH_3,Wise beyond years. Valuable counsel.,Мудрость за годы. Ценные советы.
+REACTION_WIS_HIGH_4,Calm eye in the storm. Focused and wise.,Спокойный глаз в буре. Сосредоточен и мудр.
+REACTION_WIS_HIGH_5,Guided by a celestial oracle. Instincts unmatched.,Руководствуется небесным оракулом. Инстинкты бесподобны.
+REACTION_CHA_HIGH_1,Charismatic hero! Could charm a dragon.,Харизматичный герой! Мог бы очаровать даже дракона.
+REACTION_CHA_HIGH_2,Lights up the room. Heart of the party.,Освещает комнату своей харизмой. Душа вечеринки.
+REACTION_CHA_HIGH_3,Diplomat and charmer. Talk their way out.,Дипломат и обольститель. Выходит из любой ситуации.
+REACTION_CHA_HIGH_4,Hero turned celebrity. Deeds for the bards.,"Не просто герой, но и звезда. Скоро будут поет барды."
+REACTION_CHA_HIGH_5,Convince a troll to join a book club. Seriously charismatic.,"Мог бы уговорить тролля вступить в книжный клуб. Правда, харизмы у него хватает."

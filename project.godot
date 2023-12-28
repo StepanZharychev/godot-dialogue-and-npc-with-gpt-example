@@ -54,3 +54,4 @@ use={
 [internationalization]
 
 locale/translations=PackedStringArray("res://assets/localization/locale.en.translation", "res://assets/localization/locale.ru.translation")
+locale/test="ru"

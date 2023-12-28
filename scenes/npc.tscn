@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://doup7gchq72qr"]
+[gd_scene load_steps=14 format=3 uid="uid://doup7gchq72qr"]
 
 [ext_resource type="Texture2D" uid="uid://bvkctoeqhvqjv" path="res://assets/characters/npc-girl/idle1.png" id="1_f1ua5"]
 [ext_resource type="Script" path="res://scripts/npc.gd" id="1_vg2pm"]
@@ -97,7 +97,18 @@ _data = {
 "fade_in": SubResource("Animation_ii4bx")
 }
 
-[node name="NPC" type="Area2D"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cs8dg"]
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.129412, 0.129412, 0.129412, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[node name="NPC" type="Area2D" groups=["passive_npc"]]
 script = ExtResource("1_vg2pm")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
@@ -121,22 +132,24 @@ libraries = {
 }
 
 [node name="LabelDispose" type="Timer" parent="."]
-wait_time = 10.0
+wait_time = 5.0
 
 [node name="Label" type="Label" parent="."]
 modulate = Color(1, 1, 1, 0)
-anchors_preset = 14
+anchors_preset = 8
+anchor_left = 0.5
 anchor_top = 0.5
-anchor_right = 1.0
+anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -31.0
 offset_top = -121.0
-offset_right = 34.0
-offset_bottom = -87.0
+offset_right = 70.0
+offset_bottom = -68.0
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(32.5, 17)
-theme_override_font_sizes/font_size = 24
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_cs8dg")
 text = "Wow!"
 horizontal_alignment = 1
 

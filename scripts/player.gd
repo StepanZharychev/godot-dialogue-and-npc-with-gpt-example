@@ -1,9 +1,9 @@
 extends Area2D
 
 @export var speed = 400
-const stats = {
-	Strength = 15,
-	Dexterity = 10,
+const STATS: Dictionary = {
+	Strength = 9,
+	Dexterity = 16,
 	Constitution = 10,
 	Intelligence = 10,
 	Wisdom = 10,
@@ -13,7 +13,6 @@ const stats = {
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	_startIdle()
-	print(stats)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -40,3 +39,6 @@ func _process(delta):
 func _startIdle():
 	$AnimatedSprite2D.animation = "idle"
 	$AnimatedSprite2D.play()
+	
+func get_stats():
+	return STATS
