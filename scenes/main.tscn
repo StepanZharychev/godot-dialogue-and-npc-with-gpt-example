@@ -63,5 +63,10 @@ position = Vector2(4212, 843)
 flip = true
 dialogue_resource = ExtResource("4_cgwif")
 
+[node name="ActiveNpc2" parent="." instance=ExtResource("3_yu5df")]
+position = Vector2(5252, 832)
+flip = true
+generateWithGpt = true
+
 [node name="Player" parent="." instance=ExtResource("2_7m1qk")]
 position = Vector2(3315, 841)
