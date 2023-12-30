@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://cobiscecmwd3b"]
+[gd_scene load_steps=11 format=3 uid="uid://cobiscecmwd3b"]
 
 [ext_resource type="Script" path="res://scripts/active_npc.gd" id="1_mduxh"]
 [ext_resource type="Texture2D" uid="uid://ilnap8a2ulty" path="res://assets/characters/npc-boy/idle1.png" id="1_slh7h"]
@@ -37,6 +37,17 @@ height = 196.0
 [sub_resource type="CircleShape2D" id="CircleShape2D_0lwrw"]
 radius = 172.569
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nk3cu"]
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.129412, 0.129412, 0.129412, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
 [node name="ActiveNpc" type="Area2D"]
 script = ExtResource("1_mduxh")
 
@@ -53,6 +64,17 @@ shape = SubResource("CapsuleShape2D_unx5i")
 shape = SubResource("CircleShape2D_0lwrw")
 
 [node name="GPTRequest" type="HTTPRequest" parent="."]
+
+[node name="DialogueBubble" type="Label" parent="."]
+visible = false
+offset_left = -90.0
+offset_top = -156.0
+offset_right = 127.0
+offset_bottom = -103.0
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_nk3cu")
+text = "Говорить [E]"
+horizontal_alignment = 1
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="area_exited" from="." to="." method="_on_area_exited"]

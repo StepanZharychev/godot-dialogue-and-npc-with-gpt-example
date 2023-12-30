@@ -1,54 +1,56 @@
 ~ start
 
-Воин: Привет, Темный Лорд Вампиров.
+Warrior: Greetings, Dark Lord of the Vampires.
 
 if State.vampire_status == "threatening":
-	VampireLord: Смертный, твое присутствие здесь неуместно.
-	- Вызов вампира на бой
-		Warrior: Я не боюсь ни одного создания ночи. Готовься к битве!
-		[Начинается жаркая битва, с шумом стали и клыками]
-		- Победить вампира
-			Warrior: Твое владычество тьмы заканчивается здесь, отвратительное создание!
-			VampireLord: Может быть, ты победил в этой битве, но ночь принадлежит мне.
-			Warrior: Мы встретимся снова, вампир.
-		- Уступить перед вампиром
-			Warrior: У меня нет желания проливать кровь напрасно. Я уступаю, пока.
-			VampireLord: Мудрое решение, смертный. Покинь это место.
-	- Переговоры с вампиром
-		Warrior: Почему распространять тьму, когда может быть мир? Чего ты ищешь?
-		VampireLord: Мир, говоришь? Смертный, ты недооцениваешь природу моего вида.
-		- Предложение перемирия
-			Warrior: Давайте заключим перемирие. Твой вид может сосуществовать с людьми без вреда.
-			VampireLord: Перемирие, ты предлагаешь? Интересно. Я обдумаю это.
-		- Требование ответов
-			Warrior: Говори! Что толкает тебя на неутолимую жажду крови?
-			VampireLord: Смертный, есть вещи, вне твоего понимания. Вопросы имеют последствия.
+	VampireLord: Mortal, your presence here is unwise.
+	- Challenge the vampire
+		Warrior: I fear no creature of the night. Prepare for battle!
+		[A fierce battle ensues, with the clash of steel and fangs]
+		- Defeat the vampire
+			Warrior: Your reign of darkness ends here, foul creature!
+			VampireLord: You may have won this battle, but the night belongs to me.
+			Warrior: We'll meet again, vampire.
+		- Yield to the vampire
+			Warrior: I have no desire for unnecessary bloodshed. I yield, for now.
+			VampireLord: Wise decision, mortal. Leave this place.
+	- Negotiate with the vampire
+		Warrior: Why spread darkness when there could be peace? What do you seek?
+		VampireLord: Peace, you say? Mortal, you underestimate the nature of my kind.
+		- Offer a truce
+			Warrior: Let us find a truce. Your kind can coexist with humans without harm.
+			VampireLord: A truce, you propose? Interesting. I shall consider it.
+			set State.vampire_status = "alliance"
+		- Demand answers
+			Warrior: Speak! What drives your insatiable thirst for blood?
+			VampireLord: Mortal, there are things beyond your understanding. Questions have consequences.
 elif State.vampire_status == "alliance":
-	Warrior: Я пришел с миром, союзник ночи.
-	VampireLord: Добро пожаловать, воин. Что привело тебя в мои владения?
-	- Поиск руководства
-		Warrior: Мне предстоит столкнуться с более великим злом, угрожающим нашим мирам. Ты будешь со мной?
-		VampireLord: Общий враг, говоришь? Я предоставлю тебе свою силу, но этот союз хрупок.
-		Warrior: Вместе мы победим тьму.
-	- Предать вампира
-		Warrior: Твоя сила может стать моей. Я вызываю тебя на трон ночи.
-		VampireLord: Глупый смертный! Ты недооцениваешь силу, текущую через мои вены.
-		[Начинается битва за верховенство]
-		- Победить вампира
-			Warrior: Твое владычество заканчивается сейчас. Ночь принадлежит мне!
-		- Поддаться тьме
-			VampireLord: Ты искал силу, смертный, и теперь ты будешь служить ночи вечно.
+	Warrior: I come in peace, ally of the night.
+	VampireLord: Welcome, warrior. What brings you to my domain?
+	- Seek guidance
+		Warrior: I face a greater evil that threatens both our worlds. Will you stand with me?
+		VampireLord: A common enemy, you say? I shall lend you my strength, but this alliance is fragile.
+		Warrior: Together, we shall overcome the darkness.
+	- Betray the vampire
+		Warrior: Your power could be mine. I challenge you for the throne of the night.
+		VampireLord: Foolish mortal! You underestimate the power that flows through my veins.
+		[A battle for supremacy unfolds]
+		- Overcome the vampire
+			Warrior: Your reign ends now. The night belongs to me!
+		- Succumb to darkness
+			VampireLord: You sought power, mortal, and now you shall serve the night for eternity.
+
 else:
-	Warrior: Древний, расскажи мне о тайнах, медленно витающих в тени.
-	VampireLord: Смертный, ты на опасной почве. Какого знания ты ищешь?
-	- Спросить об прошлом вампира
-		Warrior: Какие древние сказания связывают тебя с этой вечной ночью?
-		VampireLord: Давным-давно меня прокляли бродить по земле как тварь тьмы.
-	- Предложить искупление
-		Warrior: Всегда есть путь к искуплению. Прими свет снова.
-		VampireLord: Искупление? Заманчивая идея, но мой фатум запечатан.
-	- Использовать слабость вампира
-		Warrior: Твоя слабость в твоем прошлом. Я буду использовать это, чтобы избавить мир от твоей тьмы.
-		VampireLord: Ты думаешь, что можешь использовать мое прошлое против меня? Ты недооцениваешь мою силу.
+	Warrior: Ancient one, tell me of the secrets that linger in the shadows.
+	VampireLord: Mortal, you tread on dangerous ground. What knowledge do you seek?
+	- Inquire about the vampire's past
+		Warrior: What ancient tales bind you to this eternal night?
+		VampireLord: Long ago, I was cursed to walk the earth as a creature of darkness.
+	- Offer redemption
+		Warrior: There is always a path to redemption. Embrace the light once more.
+		VampireLord: Redemption? A tempting notion, but my fate is sealed.
+	- Exploit the vampire's weakness
+		Warrior: Your weakness lies in your past. I shall exploit it to rid the world of your darkness.
+		VampireLord: You think you can use my past against me? You underestimate the power I wield.
 
 => END
