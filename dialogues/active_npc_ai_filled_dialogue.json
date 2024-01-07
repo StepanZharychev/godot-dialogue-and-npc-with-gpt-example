@@ -1,0 +1,50 @@
+[
+	{
+		"character": "Narrator", "type": "text", "text": "TBF"
+	},
+	{
+		"character": "Astarion", "type": "text", "text": "TBF"
+	},
+	{
+		"character": "Astarion", "type": "text", "text": "TBF"
+	},
+	{
+		"character": "Astarion", "type": "text", "text": "TBF"
+	},
+	{
+		"character": "Tav", "type": "text", "text": "TBF"
+	},
+	{
+		"character": "Tav", "type": "choice", "text": "TBF", "action": "TBF-summary", "childLines": [
+			{
+				"character": "Astarion", "type": "text", "text": "TBF"
+			},
+			{
+				"character": "Tav", "type": "text", "text": "TBF"
+			},
+			{
+				"character": "Astarion", "type": "text", "text": "TBF"
+			}
+		]
+	},
+	{
+		"character": "Tav", "type": "choice", "text": "TBF", "action": "TBF-summary", "childLines": [
+			{
+				"character": "Astarion", "type": "text", "text": "TBF"
+			},
+			{
+				"character": "Tav", "type": "text", "text": "TBF"
+			}
+		]
+	},
+	{
+		"character": "Tav", "type": "choice", "text": "TBF", "action": "TBF-summary", "childLines": [
+			{
+				"character": "Astarion", "type": "text", "text": "TBF"
+			},
+			{
+				"character": "Tav", "type": "text", "text": "TBF"
+			}
+		]
+	}
+]

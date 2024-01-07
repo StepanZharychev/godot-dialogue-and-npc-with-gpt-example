@@ -70,4 +70,4 @@ generateWithGpt = true
 npc_name = "Vampire Astarion"
 
 [node name="Player" parent="." instance=ExtResource("2_7m1qk")]
-position = Vector2(3315, 841)
+position = Vector2(4778, 853)

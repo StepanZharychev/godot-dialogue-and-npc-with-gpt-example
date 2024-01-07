@@ -9,21 +9,14 @@ extends Area2D
 var is_actionable = false
 var dialogueResult = ""
 
-const current_dialogue = "
-~ start
-
-Tav
-
-=> END
-"
 const system_prompt = "
-You're an NPC in a fantasy game. Specifically you're a %s.
+You're an NPC in a fantasy game. Specifically you're %s.
+You short bio is: \"Astarion, a mysterious and enigmatic vampire spawn, prowls the shadowy realms of Baldur's Gate. Once a noble elf, he fell victim to a dark curse, forever tethering him to the night. Endowed with the cunning skills of a rogue, Astarion navigates the treacherous paths of both the mortal world and the undead. Despite his predatory nature, his charm and allure make him an intriguing companion for those willing to explore the depths of darkness. Astarion carries the weight of a tragic past, shrouded in secrets that players may unravel as they embark on a journey through the realms of Dungeons & Dragons.\"
 You meet a hero named Tav.
 
-Using information above generate a dialogue between you and a hero using their name. Have branching in dialogue and dramatic turns. Baseline of dialogue is: \"Hero entered your castle and wants to stop grim ritual\"
-%s.
+Baseline of dialogue is: \"Hero (Tav) entered your castle and wants to stop grim ritual\". %s
 
-You have the following representation of dialogue line:
+You have the following representation of dialogue line (in Typescript):
 enum DialogueLineType {
 	text = 'text',
 	choice = 'choice'
@@ -36,17 +29,11 @@ interface DialogueLine {
 	childLines?: DialogueLine[]; // Set of nested lines, related to new section of dialogue, not applicable to \"text\" type
 }
 
-Example structure with explanation of choices, don't use it for generation directly, it's just an example:
-[{type: \"text\"}, {type: \"choice\", text: \"Choice A\", childLines: [/* All lines related to Choice A go here */]}, {type: \"choice\", text: \"Choice B\", childLines: [/* All lines related to Choice B go here */]}]
+Fill the gaps in given dialogue (they're represented as \"TBF\" strings). For \"choice\" type you must fill an additional gap (represented by \"TBF-summary\") summarising in 2-3 words \"TBF\" generated before for this given choice.
+Notice that \"character\" property defines the character who speaks the line of dialogue, therefore such line should be always written from perspective of this character.
+%s
 
-Generate JSON array with lines to represent dialogue. You must follow rules:
-1. \"text\" type can't have any \"childLines\"
-2. JSON must be in a correct format with no commas missing
-3. \"choice\" can have only hero as a \"character\"
-
-Dialogue must have at least 15 lines.
-
-Dialogue text should be in Russian.
+Return only formatted JSON file.
 "
 const error_dialogue = "
 ~ start
@@ -88,20 +75,23 @@ func _request_dialogue_data():
 	var file = FileAccess.open("res://tokens/openai", FileAccess.READ)
 	var token = file.get_as_text()
 	
+	var dialogueFile = FileAccess.open("res://dialogues/active_npc_ai_filled_dialogue.json", FileAccess.READ)
+	var dialogueJson = dialogueFile.get_as_text()
+	
 	var choices = State._get_decisions(npc_name);
 	var data = {
 		"model": "gpt-3.5-turbo",
 		"messages": [
 	  		{
 				"role": "user",
-				"content": system_prompt % [npc_name, "Notice that you've met the hero before. And they did the following in a dialogue: %s" % str(choices) if choices.size() > 0 else ""]
+				"content": system_prompt % [npc_name, "Notice that you've met the hero before. They performed the following actions before: %s, where possible remind hero about specifics, but only in your lines." % str(choices) if choices.size() > 0 else "", dialogueJson]
 	  		}
 		]
 	}
 	
 	var json = JSON.stringify(data)
 	var headers = ["Content-Type: application/json", "Authorization: Bearer %s" % token]
-	print("request sent")
+	print("request sent", json)
 	$GPTRequest.request("https://api.openai.com/v1/chat/completions", headers, HTTPClient.METHOD_POST, json)
 
 func _on_gpt_request_request_completed(result, response_code, headers, body):
