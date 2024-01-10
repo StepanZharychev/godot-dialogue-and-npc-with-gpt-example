@@ -5,7 +5,7 @@ const STATS: Dictionary = {
 	Strength = 9,
 	Dexterity = 16,
 	Constitution = 10,
-	Intelligence = 10,
+	Intelligence = 16,
 	Wisdom = 10,
 	Charisma = 10
 }

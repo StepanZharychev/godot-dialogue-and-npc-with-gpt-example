@@ -36,7 +36,10 @@ func _generate_stat_string(stats: Dictionary):
 	
 	# Adds little bit of random selection only one stat or combination sometimes
 	var randomSelector = randi() % 3
-	return "%s_%s" % resultStrings if resultStrings.size() == 2 && randomSelector == 2 else resultStrings[randomSelector]
+	if resultStrings.size() == 2 && randomSelector == 2:
+		return "%s_%s" % resultStrings
+	
+	return resultStrings[randomSelector]
 
 func _get_reaction_text(stats: Dictionary):
 	var statString = _generate_stat_string(stats)

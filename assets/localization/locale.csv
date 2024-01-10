@@ -1,67 +1,362 @@
-keys,en,ru
-STANDARD_REACTION,*mumbles*,*бормочет*
-REACTION_STR_HIGH_INT_LOW_1,"Muscles over mind, I guess.","Мускулы вместо ума, видимо."
-REACTION_STR_HIGH_INT_LOW_2,"Strength, but not much else.","Сила, но вот ума не хватает."
-REACTION_STR_HIGH_INT_LOW_3,Could use an intelligence boost.,Неплохо было бы увеличить интеллект.
-REACTION_STR_HIGH_INT_LOW_4,"Trees: 1, Hero: 0.","Деревья: 1, Герой: 0."
-REACTION_STR_HIGH_INT_LOW_5,"Need help with puzzles, buddy?","Нужна помощь с головоломками, приятель?"
-REACTION_STR_HIGH_1,Strong and solid—perfect!,Сильный и надежный — идеально!
-REACTION_STR_HIGH_2,Our town's powerhouse!,Сила нашего города!
-REACTION_STR_HIGH_3,A real force for good.,Настоящая сила добра.
-REACTION_STR_HIGH_4,"Muscles like that, no worries!",С такими мышцами — никаких забот!
-REACTION_STR_HIGH_5,Game-changer strength—awesome!,"Сила, изменившая игру — круто!"
-REACTION_STR_HIGH_DEX_LOW_1,Powerful but graceless.,"Мощный, но неуклюжий."
-REACTION_STR_HIGH_DEX_LOW_2,"Mighty, but watch those feet.","Могущественный, но следи за ногами."
-REACTION_STR_HIGH_DEX_LOW_3,"Brawns, not balance.","Сила, не ловкость."
-REACTION_STR_HIGH_DEX_LOW_4,"Lifts mountains, stumbles on pebbles.","Поднимает горы, спотыкается о камушки."
-REACTION_STR_HIGH_DEX_LOW_5,"Muscles galore, no finesse.","Мускулы в избытке, но нет изящества."
-REACTION_DEX_HIGH_STR_LOW_1,"Graceful, not strong.","Гибкий, не сильный."
-REACTION_DEX_HIGH_STR_LOW_2,"Agile, not robust.","Ловкий, но не прочный."
-REACTION_DEX_HIGH_STR_LOW_3,"Dances well, can't lift much.","Танцует хорошо, но не поднимет много веса."
-REACTION_DEX_HIGH_STR_LOW_4,"Swift, not mighty.","Быстрый, но не могучий."
-REACTION_DEX_HIGH_STR_LOW_5,"Light on feet, heavy on skill.","Легкий на ногах, сильно на мастерство."
-REACTION_CON_HIGH_INT_LOW_1,Tough but not brainy.,"Крепкий, но неумный."
-REACTION_CON_HIGH_INT_LOW_2,"Resilient, not a thinker.","Стойкий, но не мыслитель."
-REACTION_CON_HIGH_INT_LOW_3,"Sturdy, not smart.","Крепкий, но не особо умный."
-REACTION_CON_HIGH_INT_LOW_4,"Built to last, not to strategize.","Как крепость, но не стратег."
-REACTION_CON_HIGH_INT_LOW_5,"Tough skin, not sharp mind.","Может выдержать удар, но не придумает стратегию."
-REACTION_INT_HIGH_CON_LOW_1,Brainy but fragile.,"Острый ум, но хрупкий."
-REACTION_INT_HIGH_CON_LOW_2,"Smart, not sturdy.","Умный, но не стойкий."
-REACTION_INT_HIGH_CON_LOW_3,"Clever, not durable.","Ловкий ум, не долговечный."
-REACTION_INT_HIGH_CON_LOW_4,"Brains, not brawn.","Умный, не крепкий."
-REACTION_INT_HIGH_CON_LOW_5,"Solves puzzles, can't take a punch.","Решает головоломки, не выдержит удар."
-REACTION_WIS_HIGH_CHA_LOW_1,"Wise, not charming.","Мудр, но не обаятелен."
-REACTION_WIS_HIGH_CHA_LOW_2,"Insightful, not sociable.","Прозорлив, но не общительный."
-REACTION_WIS_HIGH_CHA_LOW_3,"Aware, not charismatic.","Осторожен, не харизматичен."
-REACTION_WIS_HIGH_CHA_LOW_4,"Good instincts, awkward talks.","Хороший инстинкт, но неловкое общение."
-REACTION_WIS_HIGH_CHA_LOW_5,"Wise, not diplomatic.","Мудр, но не дипломатичен."
-REACTION_CHA_HIGH_WIS_LOW_1,"Charming, not wise.","Обаятельный, но не мудрый."
-REACTION_CHA_HIGH_WIS_LOW_2,"Persuasive, not perceptive.","Убедительный, но не восприимчив к деталям."
-REACTION_CHA_HIGH_WIS_LOW_3,"Life of the party, not strategic.","Душа вечеринки, не стратег."
-REACTION_CHA_HIGH_WIS_LOW_4,"Talkative, not wise.","Болтлив, но не мудр в своих решениях."
-REACTION_CHA_HIGH_WIS_LOW_5,"Charismatic, lacking sense.","Харизматичен, но не обладает здравым смыслом."
-REACTION_DEX_HIGH_1,Swift as an arrow! Deadly and quick.,Ловкий как стрела! Смертоносен и быстр.
-REACTION_DEX_HIGH_2,Moves like a shadow—silent and deadly.,Двигается как тень — бесшумен и смертоносен.
-REACTION_DEX_HIGH_3,Battlefield dancer. Impossible to catch.,Танцует на поле боя. Невозможно его поймать.
-REACTION_DEX_HIGH_4,Lightning-quick reflexes. Blink and miss.,Молниеносные рефлексы. Мигни и пропусти.
-REACTION_DEX_HIGH_5,Stealing a dragon's hoard? Easy for them.,Украсть сокровища у дракона? Легко.
-REACTION_CON_HIGH_1,Indestructible fortress! Built to last.,Как неприступная крепость! Практически неуязвим.
-REACTION_CON_HIGH_2,"Endures hurricanes, loves a tavern brawl.","Выдержит ураган, полюбит потасовку в таверне."
-REACTION_CON_HIGH_3,Sturdy as an oak. Trust them in battle.,Крепкий как дуб. Доверяй в бою.
-REACTION_CON_HIGH_4,No sweat after dragon's breath. Literally.,Не испытывает усталости даже после дыхания дракона.
-REACTION_CON_HIGH_5,Constitution of a troll—nothing fazes them.,Выносливость тролля — ничто им не страшно.
-REACTION_INT_HIGH_1,Genius hero! Bringing brains to the brawl.,"Гений среди героев! Ум, приносящий пользу в битве."
-REACTION_INT_HIGH_2,Strategy in every step. Brains over brawn.,Стратегия в каждом шаге. Ум впереди силы.
-REACTION_INT_HIGH_3,Scholar of the party. Clever solutions.,Ученый в команде. Умные решения.
-REACTION_INT_HIGH_4,"Outwits a Sphinx, outsmarts a wizard.","Перехитрит сфинкса, обскакает волшебника."
-REACTION_INT_HIGH_5,Mind over muscle. Intellectual powerhouse.,Разум против мускулов. Интеллектуальная мощь.
-REACTION_WIS_HIGH_1,Wise sage hero. Trust their instincts.,Мудрый мудрец среди героев. Доверяю его инстинктам.
-REACTION_WIS_HIGH_2,Eyes sharp as an eagle's. Spot danger first.,"Взгляд остр, как у орла. Замечает опасность первым."
-REACTION_WIS_HIGH_3,Wise beyond years. Valuable counsel.,Мудрость за годы. Ценные советы.
-REACTION_WIS_HIGH_4,Calm eye in the storm. Focused and wise.,Спокойный глаз в буре. Сосредоточен и мудр.
-REACTION_WIS_HIGH_5,Guided by a celestial oracle. Instincts unmatched.,Руководствуется небесным оракулом. Инстинкты бесподобны.
-REACTION_CHA_HIGH_1,Charismatic hero! Could charm a dragon.,Харизматичный герой! Мог бы очаровать даже дракона.
-REACTION_CHA_HIGH_2,Lights up the room. Heart of the party.,Освещает комнату своей харизмой. Душа вечеринки.
-REACTION_CHA_HIGH_3,Diplomat and charmer. Talk their way out.,Дипломат и обольститель. Выходит из любой ситуации.
-REACTION_CHA_HIGH_4,Hero turned celebrity. Deeds for the bards.,"Не просто герой, но и звезда. Скоро будут поет барды."
-REACTION_CHA_HIGH_5,Convince a troll to join a book club. Seriously charismatic.,"Мог бы уговорить тролля вступить в книжный клуб. Правда, харизмы у него хватает."
+keys,en
+STANDARD_REACTION,*mumbles*
+REACTION_STR_HIGH_1,Behold the muscle-bound marvel before us!
+REACTION_STR_HIGH_2,A walking testament to brute force and power.
+REACTION_STR_HIGH_3,"Strong as an ox, ready to conquer all!"
+REACTION_STR_HIGH_4,"A true juggernaut, a force to be reckoned with."
+REACTION_STR_HIGH_5,The ground trembles beneath your mighty steps.
+REACTION_STR_LOW_1,Who invited the feeble twig to the party?
+REACTION_STR_LOW_2,Muscle deficiency alert! Better watch out for gusts.
+REACTION_STR_LOW_3,Are you sure you can even lift your own sword?
+REACTION_STR_LOW_4,Strength training might be a novel concept for you.
+REACTION_STR_LOW_5,"The breeze might just blow you away, my friend."
+REACTION_DEX_HIGH_1,"Graceful as a dancer, a master of precision."
+REACTION_DEX_HIGH_2,"Swift and agile, a true acrobat of finesse."
+REACTION_DEX_HIGH_3,"Eyes sharp as an eagle, catching every detail."
+REACTION_DEX_HIGH_4,"Stealthy as a shadow, a silent and deadly rogue."
+REACTION_DEX_HIGH_5,"A nimble spirit, moving like a fleeting breeze."
+REACTION_DEX_LOW_1,Have you considered participating in a slow-motion race?
+REACTION_DEX_LOW_2,Your movements... Let's call them 'distinctive.'
+REACTION_DEX_LOW_3,"Stealth is overrated, who needs to be unnoticed?"
+REACTION_DEX_LOW_4,Precision? Who needs it when you have your charm?
+REACTION_DEX_LOW_5,"I've seen turtles outpace you; impressive, really."
+REACTION_CON_HIGH_1,"An indomitable spirit, resilient to all challenges."
+REACTION_CON_HIGH_2,"Endurance personified, a fortress of vitality."
+REACTION_CON_HIGH_3,"Vitality flows within, a bastion of health."
+REACTION_CON_HIGH_4,"Unyielding fortitude, a true stalwart hero."
+REACTION_CON_HIGH_5,Your constitution radiates with robust energy.
+REACTION_CON_LOW_1,"Sickly and frail, a gentle breeze might topple you."
+REACTION_CON_LOW_2,Have you considered taking vitamins or something?
+REACTION_CON_LOW_3,"Health is overrated, right? Embrace the frailty!"
+REACTION_CON_LOW_4,"A walking embodiment of vulnerability, intriguing."
+REACTION_CON_LOW_5,Adversity's whisper is enough to make you falter.
+REACTION_INT_HIGH_1,"A brilliant mind, a beacon of intelligence."
+REACTION_INT_HIGH_2,"Wisdom flows through you, a sage among us."
+REACTION_INT_HIGH_3,"Infinite knowledge, a true scholar's grace."
+REACTION_INT_HIGH_4,"Clever and astute, a master of intellect."
+REACTION_INT_HIGH_5,"Your intelligence shines, a guiding star."
+REACTION_INT_LOW_1,"Simple charm, because who needs complex thoughts?"
+REACTION_INT_LOW_2,"Innocence, thy name is you. Who needs wisdom?"
+REACTION_INT_LOW_3,"A gentle mind, blissfully unaware of complexities."
+REACTION_INT_LOW_4,"Simple and pure, like a blank slate of wisdom."
+REACTION_INT_LOW_5,"Modesty in intellect, a commendable feat... I guess."
+REACTION_WIS_HIGH_1,"Profound insight, a seer in our midst."
+REACTION_WIS_HIGH_2,"Deep wisdom, as ancient as the trees."
+REACTION_WIS_HIGH_3,"Spiritual resonance, a beacon of enlightenment."
+REACTION_WIS_HIGH_4,"Intuitive guide, your path is well-guided."
+REACTION_WIS_HIGH_5,"An enlightened soul, in tune with the cosmos."
+REACTION_WIS_LOW_1,"A carefree spirit, innocence in every step."
+REACTION_WIS_LOW_2,"Unburdened by deep thoughts, a joyful wanderer."
+REACTION_WIS_LOW_3,"A light-hearted approach, wisdom in simplicity."
+REACTION_WIS_LOW_4,"Naivety with charm, your journey is pure."
+REACTION_WIS_LOW_5,"A free spirit, unchained by heavy thoughts."
+REACTION_CHA_HIGH_1,"Charismatic aura, a beacon of charm."
+REACTION_CHA_HIGH_2,"Magnetic presence, a true social adept."
+REACTION_CHA_HIGH_3,"Charm personified, the room lights up."
+REACTION_CHA_HIGH_4,"Inspirational charisma, a leader among us."
+REACTION_CHA_HIGH_5,"Your charm enchants, a true social butterfly."
+REACTION_CHA_LOW_1,"A quiet demeanor, strength in solitude."
+REACTION_CHA_LOW_2,"Reserved grace, a silent observer of life."
+REACTION_CHA_LOW_3,"Modesty suits you, a beacon of humility."
+REACTION_CHA_LOW_4,"A subtle presence, strength in quietude."
+REACTION_CHA_LOW_5,"In your silence, there's a powerful calm."
+REACTION_STR_HIGH_DEX_LOW_1,"Mighty, but fumbling."
+REACTION_STR_HIGH_DEX_LOW_2,"Brawny, yet uncoordinated."
+REACTION_STR_HIGH_DEX_LOW_3,"Powerhouse, stumbling awkwardly."
+REACTION_STR_HIGH_DEX_LOW_4,"Robust, but lacking finesse."
+REACTION_STR_HIGH_DEX_LOW_5,"Muscular, yet graceless."
+REACTION_DEX_HIGH_STR_LOW_1,"Agile, but feeble."
+REACTION_DEX_HIGH_STR_LOW_2,"Nimble, yet weak."
+REACTION_DEX_HIGH_STR_LOW_3,"Dexterous, with little strength."
+REACTION_DEX_HIGH_STR_LOW_4,"Graceful, but easily overpowered."
+REACTION_DEX_HIGH_STR_LOW_5,"Lithe, yet lacking muscle."
+REACTION_STR_HIGH_CON_LOW_1,"Strong, yet vulnerable."
+REACTION_STR_HIGH_CON_LOW_2,"Sturdy, but susceptible."
+REACTION_STR_HIGH_CON_LOW_3,"Mighty, yet fragile."
+REACTION_STR_HIGH_CON_LOW_4,"Powerful, yet delicate."
+REACTION_STR_HIGH_CON_LOW_5,"Potent, but easily hurt."
+REACTION_CON_HIGH_STR_LOW_1,"Resilient, but feeble."
+REACTION_CON_HIGH_STR_LOW_2,"Tough, yet weak."
+REACTION_CON_HIGH_STR_LOW_3,"Durable, but lacking strength."
+REACTION_CON_HIGH_STR_LOW_4,"Stalwart, but easily overpowered."
+REACTION_CON_HIGH_STR_LOW_5,"Hardy, yet lacking muscle."
+REACTION_STR_HIGH_INT_LOW_1,"Powerful, yet clueless."
+REACTION_STR_HIGH_INT_LOW_2,"Mighty, yet unintelligent."
+REACTION_STR_HIGH_INT_LOW_3,"Strong, but lacking intellect."
+REACTION_STR_HIGH_INT_LOW_4,"Potent, yet mentally feeble."
+REACTION_STR_HIGH_INT_LOW_5,"Brawny, yet lacking wisdom."
+REACTION_INT_HIGH_STR_LOW_1,"Intellectual, but weak."
+REACTION_INT_HIGH_STR_LOW_2,"Clever, yet physically feeble."
+REACTION_INT_HIGH_STR_LOW_3,"Wise, but lacking in strength."
+REACTION_INT_HIGH_STR_LOW_4,"Smart, yet easily overpowered."
+REACTION_INT_HIGH_STR_LOW_5,"Sage-like, yet lacking muscle."
+REACTION_STR_HIGH_WIS_LOW_1,"Mighty, yet unaware."
+REACTION_STR_HIGH_WIS_LOW_2,"Strong, but lacking perception."
+REACTION_STR_HIGH_WIS_LOW_3,"Potent, yet oblivious."
+REACTION_STR_HIGH_WIS_LOW_4,"Brawny, but lacking insight."
+REACTION_STR_HIGH_WIS_LOW_5,"Powerful, yet not wise."
+REACTION_WIS_HIGH_STR_LOW_1,"Perceptive, but feeble."
+REACTION_WIS_HIGH_STR_LOW_2,"Insightful, yet physically weak."
+REACTION_WIS_HIGH_STR_LOW_3,"Wise, but lacking in strength."
+REACTION_WIS_HIGH_STR_LOW_4,"Observant, yet easily overpowered."
+REACTION_WIS_HIGH_STR_LOW_5,"Intuitive, yet lacking muscle."
+REACTION_STR_HIGH_CHA_LOW_1,"Potent, yet uncharismatic."
+REACTION_STR_HIGH_CHA_LOW_2,"Strong, but lacking charm."
+REACTION_STR_HIGH_CHA_LOW_3,"Mighty, yet unappealing."
+REACTION_STR_HIGH_CHA_LOW_4,"Robust, but socially awkward."
+REACTION_STR_HIGH_CHA_LOW_5,"Powerful, yet charmless."
+REACTION_CHA_HIGH_STR_LOW_1,"Charismatic, but feeble."
+REACTION_CHA_HIGH_STR_LOW_2,"Alluring, yet physically weak."
+REACTION_CHA_HIGH_STR_LOW_3,"Charming, but lacking strength."
+REACTION_CHA_HIGH_STR_LOW_4,"Persuasive, yet easily overpowered."
+REACTION_CHA_HIGH_STR_LOW_5,"Enchanting, yet lacking muscle."
+REACTION_DEX_LOW_STR_LOW_1,Clumsy and weak.
+REACTION_DEX_LOW_STR_LOW_2,"Awkward, yet lacking strength."
+REACTION_DEX_LOW_STR_LOW_3,"Inept, but not powerful."
+REACTION_DEX_LOW_STR_LOW_4,"Graceless, yet not strong."
+REACTION_DEX_LOW_STR_LOW_5,Uncoordinated and feeble.
+REACTION_DEX_HIGH_STR_LOW_1,"Nimble, yet weak."
+REACTION_DEX_HIGH_STR_LOW_2,"Dexterous, but physically feeble."
+REACTION_DEX_HIGH_STR_LOW_3,"Agile, yet lacking strength."
+REACTION_DEX_HIGH_STR_LOW_4,"Graceful, yet easily overpowered."
+REACTION_DEX_HIGH_STR_LOW_5,"Lithe, yet lacking muscle."
+REACTION_CON_LOW_STR_LOW_1,Vulnerable and weak.
+REACTION_CON_LOW_STR_LOW_2,"Fragile, yet not strong."
+REACTION_CON_LOW_STR_LOW_3,"Susceptible, but not powerful."
+REACTION_CON_LOW_STR_LOW_4,"Delicate, yet lacking strength."
+REACTION_CON_LOW_STR_LOW_5,Frail and feeble.
+REACTION_CON_HIGH_STR_LOW_1,"Resilient, but feeble."
+REACTION_CON_HIGH_STR_LOW_2,"Tough, yet weak."
+REACTION_CON_HIGH_STR_LOW_3,"Durable, but lacking strength."
+REACTION_CON_HIGH_STR_LOW_4,"Stalwart, but easily overpowered."
+REACTION_CON_HIGH_STR_LOW_5,"Hardy, yet lacking muscle."
+REACTION_INT_LOW_STR_LOW_1,Unintelligent and weak.
+REACTION_INT_LOW_STR_LOW_2,Dull-witted and feeble.
+REACTION_INT_LOW_STR_LOW_3,"Dim, yet physically fragile."
+REACTION_INT_LOW_STR_LOW_4,Intellectually challenged and weak.
+REACTION_INT_LOW_STR_LOW_5,Simple-minded and lacking muscle.
+REACTION_INT_HIGH_STR_LOW_1,"Intellectual, but weak."
+REACTION_INT_HIGH_STR_LOW_2,"Clever, yet physically feeble."
+REACTION_INT_HIGH_STR_LOW_3,"Wise, but lacking in strength."
+REACTION_INT_HIGH_STR_LOW_4,"Smart, yet easily overpowered."
+REACTION_INT_HIGH_STR_LOW_5,"Sage-like, yet lacking muscle."
+REACTION_WIS_LOW_STR_LOW_1,Unwise and physically feeble.
+REACTION_WIS_LOW_STR_LOW_2,"Foolish, yet lacking in strength."
+REACTION_WIS_LOW_STR_LOW_3,Thoughtless and weak.
+REACTION_WIS_LOW_STR_LOW_4,"Imprudent, yet easily overpowered."
+REACTION_WIS_LOW_STR_LOW_5,"Ignorant, yet lacking muscle."
+REACTION_WIS_HIGH_STR_LOW_1,"Perceptive, but feeble."
+REACTION_WIS_HIGH_STR_LOW_2,"Insightful, yet physically weak."
+REACTION_WIS_HIGH_STR_LOW_3,"Wise, but lacking in strength."
+REACTION_WIS_HIGH_STR_LOW_4,"Observant, yet easily overpowered."
+REACTION_WIS_HIGH_STR_LOW_5,"Intuitive, yet lacking muscle."
+REACTION_CHA_LOW_STR_LOW_1,"Uncharismatic, weakling."
+REACTION_CHA_LOW_STR_LOW_2,Socially awkward and feeble.
+REACTION_CHA_LOW_STR_LOW_3,"Unappealing, physically weak."
+REACTION_CHA_LOW_STR_LOW_4,"Charmless, yet easily overpowered."
+REACTION_CHA_LOW_STR_LOW_5,"Lackluster charisma, lacking muscle."
+REACTION_CHA_HIGH_STR_LOW_1,"Charismatic, but feeble."
+REACTION_CHA_HIGH_STR_LOW_2,"Alluring, yet physically weak."
+REACTION_CHA_HIGH_STR_LOW_3,"Charming, but lacking strength."
+REACTION_CHA_HIGH_STR_LOW_4,"Persuasive, yet easily overpowered."
+REACTION_CHA_HIGH_STR_LOW_5,"Enchanting, yet lacking muscle."
+REACTION_DEX_HIGH_CON_LOW_1,"Nimble, yet resilient."
+REACTION_DEX_HIGH_CON_LOW_2,"Agile, and tough."
+REACTION_DEX_HIGH_CON_LOW_3,"Dexterous, yet durable."
+REACTION_DEX_HIGH_CON_LOW_4,"Graceful, and stalwart."
+REACTION_DEX_HIGH_CON_LOW_5,"Lithe, yet hardy."
+REACTION_CON_HIGH_DEX_LOW_1,"Resilient, yet clumsy."
+REACTION_CON_HIGH_DEX_LOW_2,"Tough, but uncoordinated."
+REACTION_CON_HIGH_DEX_LOW_3,"Durable, yet awkward."
+REACTION_CON_HIGH_DEX_LOW_4,"Stalwart, stumbling."
+REACTION_CON_HIGH_DEX_LOW_5,"Hardy, yet graceless."
+REACTION_DEX_HIGH_INT_LOW_1,"Nimble, yet dim-witted."
+REACTION_DEX_HIGH_INT_LOW_2,"Dexterous, yet intellectually challenged."
+REACTION_DEX_HIGH_INT_LOW_3,"Agile, but lacking in intellect."
+REACTION_DEX_HIGH_INT_LOW_4,"Graceful, yet mentally feeble."
+REACTION_DEX_HIGH_INT_LOW_5,"Lithe, yet simple-minded."
+REACTION_INT_HIGH_DEX_LOW_1,"Intellectual, yet clumsy."
+REACTION_INT_HIGH_DEX_LOW_2,"Clever, but uncoordinated."
+REACTION_INT_HIGH_DEX_LOW_3,"Wise, yet awkward."
+REACTION_INT_HIGH_DEX_LOW_4,"Smart, stumbling."
+REACTION_INT_HIGH_DEX_LOW_5,"Sage-like, yet graceless."
+REACTION_DEX_HIGH_WIS_LOW_1,"Agile, yet oblivious."
+REACTION_DEX_HIGH_WIS_LOW_2,"Nimble, but lacking insight."
+REACTION_DEX_HIGH_WIS_LOW_3,"Dexterous, yet unaware."
+REACTION_DEX_HIGH_WIS_LOW_4,"Graceful, but not wise."
+REACTION_DEX_HIGH_WIS_LOW_5,"Lithe, yet lacking perception."
+REACTION_WIS_HIGH_DEX_LOW_1,"Perceptive, yet clumsy."
+REACTION_WIS_HIGH_DEX_LOW_2,"Insightful, but uncoordinated."
+REACTION_WIS_HIGH_DEX_LOW_3,"Wise, yet awkward."
+REACTION_WIS_HIGH_DEX_LOW_4,"Observant, stumbling."
+REACTION_WIS_HIGH_DEX_LOW_5,"Intuitive, yet graceless."
+REACTION_DEX_HIGH_CHA_LOW_1,"Agile, but uncharismatic."
+REACTION_DEX_HIGH_CHA_LOW_2,"Nimble, yet lacking charm."
+REACTION_DEX_HIGH_CHA_LOW_3,"Dexterous, but socially awkward."
+REACTION_DEX_HIGH_CHA_LOW_4,"Graceful, yet charmless."
+REACTION_DEX_HIGH_CHA_LOW_5,"Lithe, but not captivating."
+REACTION_CHA_HIGH_DEX_LOW_1,"Charismatic, yet clumsy."
+REACTION_CHA_HIGH_DEX_LOW_2,"Alluring, but uncoordinated."
+REACTION_CHA_HIGH_DEX_LOW_3,"Charming, yet awkward."
+REACTION_CHA_HIGH_DEX_LOW_4,"Persuasive, stumbling."
+REACTION_CHA_HIGH_DEX_LOW_5,"Enchanting, yet graceless."
+REACTION_DEX_LOW_CON_LOW_1,Clumsy and vulnerable.
+REACTION_DEX_LOW_CON_LOW_2,Awkward and frail.
+REACTION_DEX_LOW_CON_LOW_3,"Inept, susceptible."
+REACTION_DEX_LOW_CON_LOW_4,"Graceless, delicate."
+REACTION_DEX_LOW_CON_LOW_5,Uncoordinated and easily hurt.
+REACTION_CON_LOW_DEX_LOW_1,"Vulnerable, yet clumsy."
+REACTION_CON_LOW_DEX_LOW_2,"Fragile, and awkward."
+REACTION_CON_LOW_DEX_LOW_3,"Susceptible, yet inept."
+REACTION_CON_LOW_DEX_LOW_4,"Delicate, stumbling."
+REACTION_CON_LOW_DEX_LOW_5,"Frail, yet graceless."
+REACTION_DEX_LOW_INT_LOW_1,Clumsy and dim-witted.
+REACTION_DEX_LOW_INT_LOW_2,Awkward and intellectually challenged.
+REACTION_DEX_LOW_INT_LOW_3,"Inept, but lacking intellect."
+REACTION_DEX_LOW_INT_LOW_4,"Graceless, yet mentally feeble."
+REACTION_DEX_LOW_INT_LOW_5,Uncoordinated and simple-minded.
+REACTION_INT_LOW_DEX_LOW_1,Unintelligent and clumsy.
+REACTION_INT_LOW_DEX_LOW_2,Dull-witted and uncoordinated.
+REACTION_INT_LOW_DEX_LOW_3,"Dim, yet awkward."
+REACTION_INT_LOW_DEX_LOW_4,"Intellectually challenged, stumbling."
+REACTION_INT_LOW_DEX_LOW_5,Simple-minded and graceless.
+REACTION_DEX_LOW_WIS_LOW_1,Clumsy and unaware.
+REACTION_DEX_LOW_WIS_LOW_2,Awkward and lacking insight.
+REACTION_DEX_LOW_WIS_LOW_3,"Inept, yet oblivious."
+REACTION_DEX_LOW_WIS_LOW_4,"Graceless, but not wise."
+REACTION_DEX_LOW_WIS_LOW_5,Uncoordinated and lacking perception.
+REACTION_WIS_LOW_DEX_LOW_1,Unaware and clumsy.
+REACTION_WIS_LOW_DEX_LOW_2,"Lacking insight, stumbling."
+REACTION_WIS_LOW_DEX_LOW_3,"Oblivious, yet awkward."
+REACTION_WIS_LOW_DEX_LOW_4,"Not wise, but graceless."
+REACTION_WIS_LOW_DEX_LOW_5,Clueless and uncoordinated.
+REACTION_DEX_LOW_CHA_LOW_1,Clumsy and uncharismatic.
+REACTION_DEX_LOW_CHA_LOW_2,"Awkward, lacking charm."
+REACTION_DEX_LOW_CHA_LOW_3,"Inept, socially unappealing."
+REACTION_DEX_LOW_CHA_LOW_4,"Graceless, but not charming."
+REACTION_DEX_LOW_CHA_LOW_5,Uncoordinated and charmless.
+REACTION_CHA_LOW_DEX_LOW_1,"Uncharismatic, yet clumsy."
+REACTION_CHA_LOW_DEX_LOW_2,"Charmless, and uncoordinated."
+REACTION_CHA_LOW_DEX_LOW_3,"Socially awkward, stumbling."
+REACTION_CHA_LOW_DEX_LOW_4,"Not captivating, graceless."
+REACTION_CHA_LOW_DEX_LOW_5,"Lackluster charm, uncoordinated."
+REACTION_CON_HIGH_INT_LOW_1,"Resilient, yet clueless."
+REACTION_CON_HIGH_INT_LOW_2,"Tough, but lacking intellect."
+REACTION_CON_HIGH_INT_LOW_3,"Durable, yet intellectually challenged."
+REACTION_CON_HIGH_INT_LOW_4,"Stalwart, but mentally feeble."
+REACTION_CON_HIGH_INT_LOW_5,"Hardy, yet lacking in wisdom."
+REACTION_INT_HIGH_CON_LOW_1,"Intellectual, but physically weak."
+REACTION_INT_HIGH_CON_LOW_2,"Clever, yet not sturdy."
+REACTION_INT_HIGH_CON_LOW_3,"Wise, but lacking resilience."
+REACTION_INT_HIGH_CON_LOW_4,"Smart, but easily overpowered."
+REACTION_INT_HIGH_CON_LOW_5,"Sage-like, yet not robust."
+REACTION_CON_HIGH_WIS_LOW_1,"Resilient, yet unaware."
+REACTION_CON_HIGH_WIS_LOW_2,"Tough, but lacking perception."
+REACTION_CON_HIGH_WIS_LOW_3,"Durable, yet oblivious."
+REACTION_CON_HIGH_WIS_LOW_4,"Stalwart, but not wise."
+REACTION_CON_HIGH_WIS_LOW_5,"Hardy, yet lacking insight."
+REACTION_WIS_HIGH_CON_LOW_1,"Perceptive, but not sturdy."
+REACTION_WIS_HIGH_CON_LOW_2,"Insightful, yet not resilient."
+REACTION_WIS_HIGH_CON_LOW_3,"Wise, but lacking durability."
+REACTION_WIS_HIGH_CON_LOW_4,"Observant, but easily overpowered."
+REACTION_WIS_HIGH_CON_LOW_5,"Intuitive, yet not robust."
+REACTION_CON_HIGH_CHA_LOW_1,"Resilient, yet uncharismatic."
+REACTION_CON_HIGH_CHA_LOW_2,"Tough, but lacking charm."
+REACTION_CON_HIGH_CHA_LOW_3,"Durable, yet socially awkward."
+REACTION_CON_HIGH_CHA_LOW_4,"Stalwart, but charmless."
+REACTION_CON_HIGH_CHA_LOW_5,"Hardy, yet unappealing."
+REACTION_CHA_HIGH_CON_LOW_1,"Charismatic, but not sturdy."
+REACTION_CHA_HIGH_CON_LOW_2,"Alluring, yet not resilient."
+REACTION_CHA_HIGH_CON_LOW_3,"Charming, but lacking durability."
+REACTION_CHA_HIGH_CON_LOW_4,"Persuasive, but easily overpowered."
+REACTION_CHA_HIGH_CON_LOW_5,"Enchanting, yet not robust."
+REACTION_CON_LOW_INT_LOW_1,"Vulnerable, intellectually weak."
+REACTION_CON_LOW_INT_LOW_2,"Fragile, and mentally feeble."
+REACTION_CON_LOW_INT_LOW_3,"Susceptible, lacking intellect."
+REACTION_CON_LOW_INT_LOW_4,"Delicate, but intellectually challenged."
+REACTION_CON_LOW_INT_LOW_5,"Frail, and simple-minded."
+REACTION_INT_LOW_CON_LOW_1,"Unintelligent, yet vulnerable."
+REACTION_INT_LOW_CON_LOW_2,"Dull-witted, and fragile."
+REACTION_INT_LOW_CON_LOW_3,"Dim, and susceptible."
+REACTION_INT_LOW_CON_LOW_4,"Intellectually challenged, delicate."
+REACTION_INT_LOW_CON_LOW_5,"Simple-minded, and easily hurt."
+REACTION_CON_LOW_WIS_LOW_1,Vulnerable and clueless.
+REACTION_CON_LOW_WIS_LOW_2,"Fragile, with no insight."
+REACTION_CON_LOW_WIS_LOW_3,"Susceptible, oblivious."
+REACTION_CON_LOW_WIS_LOW_4,"Delicate, lacking wisdom."
+REACTION_CON_LOW_WIS_LOW_5,Frail and without perception.
+REACTION_WIS_LOW_CON_LOW_1,Unaware and vulnerable.
+REACTION_WIS_LOW_CON_LOW_2,"Lacking insight, fragile."
+REACTION_WIS_LOW_CON_LOW_3,Oblivious and susceptible.
+REACTION_WIS_LOW_CON_LOW_4,"Not wise, delicate."
+REACTION_WIS_LOW_CON_LOW_5,Clueless and easily hurt.
+REACTION_CON_LOW_CHA_LOW_1,"Vulnerable, yet uncharismatic."
+REACTION_CON_LOW_CHA_LOW_2,"Fragile, lacking charm."
+REACTION_CON_LOW_CHA_LOW_3,"Susceptible, socially awkward."
+REACTION_CON_LOW_CHA_LOW_4,"Delicate, but charmless."
+REACTION_CON_LOW_CHA_LOW_5,"Frail, unappealing."
+REACTION_CHA_LOW_CON_LOW_1,"Uncharismatic, yet vulnerable."
+REACTION_CHA_LOW_CON_LOW_2,"Charmless, and fragile."
+REACTION_CHA_LOW_CON_LOW_3,"Socially awkward, susceptible."
+REACTION_CHA_LOW_CON_LOW_4,"Not captivating, delicate."
+REACTION_CHA_LOW_CON_LOW_5,"Lackluster charm, easily hurt."
+REACTION_INT_LOW_WIS_LOW_1,Unintelligent and clueless.
+REACTION_INT_LOW_WIS_LOW_2,"Dull-witted, lacking insight."
+REACTION_INT_LOW_WIS_LOW_3,"Dim, and oblivious."
+REACTION_INT_LOW_WIS_LOW_4,"Intellectually challenged, not wise."
+REACTION_INT_LOW_WIS_LOW_5,"Simple-minded, lacking perception."
+REACTION_WIS_LOW_INT_LOW_1,Unaware and unintelligent.
+REACTION_WIS_LOW_INT_LOW_2,"Lacking insight, mentally feeble."
+REACTION_WIS_LOW_INT_LOW_3,"Oblivious, intellectually challenged."
+REACTION_WIS_LOW_INT_LOW_4,"Not wise, but mentally feeble."
+REACTION_WIS_LOW_INT_LOW_5,"Clueless, and simple-minded."
+REACTION_INT_LOW_CHA_LOW_1,Unintelligent and uncharismatic.
+REACTION_INT_LOW_CHA_LOW_2,"Dull-witted, lacking charm."
+REACTION_INT_LOW_CHA_LOW_3,"Dim, socially awkward."
+REACTION_INT_LOW_CHA_LOW_4,"Intellectually challenged, charmless."
+REACTION_INT_LOW_CHA_LOW_5,"Simple-minded, unappealing."
+REACTION_CHA_LOW_INT_LOW_1,"Awkward, yet intellectually weak."
+REACTION_CHA_LOW_INT_LOW_2,"Uncharismatic, dull-witted."
+REACTION_CHA_LOW_INT_LOW_3,"Socially challenged, dim."
+REACTION_CHA_LOW_INT_LOW_4,"Not captivating, mentally feeble."
+REACTION_CHA_LOW_INT_LOW_5,"Lackluster charm, simple-minded."
+REACTION_WIS_LOW_CHA_LOW_1,Oblivious and charmless.
+REACTION_WIS_LOW_CHA_LOW_2,Witless and unconvincing.
+REACTION_WIS_LOW_CHA_LOW_3,Foolish and socially awkward.
+REACTION_WIS_LOW_CHA_LOW_4,Unaware and unimpressive.
+REACTION_WIS_LOW_CHA_LOW_5,Clueless and uncharismatic.
+REACTION_CHA_LOW_WIS_LOW_1,"Awkward, yet insightful."
+REACTION_CHA_LOW_WIS_LOW_2,"Uncharismatic, but perceptive."
+REACTION_CHA_LOW_WIS_LOW_3,"Unappealing, yet clever."
+REACTION_CHA_LOW_WIS_LOW_4,"Socially challenged, yet wise."
+REACTION_CHA_LOW_WIS_LOW_5,"Lackluster charm, but astute."
+REACTION_INT_HIGH_WIS_LOW_1,"Intellectual, yet oblivious."
+REACTION_INT_HIGH_WIS_LOW_2,"Clever, but lacking insight."
+REACTION_INT_HIGH_WIS_LOW_3,"Wise, but mentally feeble."
+REACTION_INT_HIGH_WIS_LOW_4,"Smart, yet not perceptive."
+REACTION_INT_HIGH_WIS_LOW_5,"Sage-like, but lacking wisdom."
+REACTION_WIS_HIGH_INT_LOW_1,"Perceptive, but intellectually weak."
+REACTION_WIS_HIGH_INT_LOW_2,"Insightful, yet mentally feeble."
+REACTION_WIS_HIGH_INT_LOW_3,"Wise, but lacking intellect."
+REACTION_WIS_HIGH_INT_LOW_4,"Observant, but not smart."
+REACTION_WIS_HIGH_INT_LOW_5,"Intuitive, yet intellectually challenged."
+REACTION_WIS_LOW_CHA_LOW_1,Unwise and charmless.
+REACTION_WIS_LOW_CHA_LOW_2,Foolish and socially awkward.
+REACTION_WIS_LOW_CHA_LOW_3,Thoughtless and uncharismatic.
+REACTION_WIS_LOW_CHA_LOW_4,Imprudent and socially unappealing.
+REACTION_WIS_LOW_CHA_LOW_5,Ignorant and lacking charm.
+REACTION_CHA_LOW_WIS_LOW_1,"Awkward, yet perceptive."
+REACTION_CHA_LOW_WIS_LOW_2,"Uncharismatic, but insightful."
+REACTION_CHA_LOW_WIS_LOW_3,"Unappealing, yet clever."
+REACTION_CHA_LOW_WIS_LOW_4,"Socially challenged, yet wise."
+REACTION_CHA_LOW_WIS_LOW_5,"Lackluster charm, but astute."
+REACTION_WIS_HIGH_CHA_LOW_1,"Insightful, yet uncharismatic."
+REACTION_WIS_HIGH_CHA_LOW_2,"Perceptive, but lacking charm."
+REACTION_WIS_HIGH_CHA_LOW_3,"Wise, but socially awkward."
+REACTION_WIS_HIGH_CHA_LOW_4,"Observant, yet charmless."
+REACTION_WIS_HIGH_CHA_LOW_5,"Intuitive, but not captivating."
+REACTION_CHA_HIGH_WIS_LOW_1,"Charismatic, but not wise."
+REACTION_CHA_HIGH_WIS_LOW_2,"Alluring, yet lacking insight."
+REACTION_CHA_HIGH_WIS_LOW_3,"Charming, but not perceptive."
+REACTION_CHA_HIGH_WIS_LOW_4,"Persuasive, yet not astute."
+REACTION_CHA_HIGH_WIS_LOW_5,"Enchanting, but mentally feeble."
