@@ -1,8 +1,6 @@
 extends Area2D
 
 @export var flip = false
-@export var generateWithGpt = false
-@export var dialogue_resource: DialogueResource
 @export var dialogue_start = "start"
 @export var npc_name = ""
 
@@ -105,14 +103,11 @@ func _on_gpt_request_request_completed(result, response_code, headers, body):
 		dialogueResult = error_dialogue % str(json.error)
 
 func _init_dialogue():
-	if !generateWithGpt:
-		DialogueManager.show_example_dialogue_balloon(dialogue_resource, dialogue_start)
-	else:
-		_request_dialogue_data()
-		await $GPTRequest.request_completed
-		print(dialogueResult)
-		var resource = DialogueManager.create_resource_from_text(dialogueResult)
-		DialogueManager.show_example_dialogue_balloon(resource, dialogue_start)
+	_request_dialogue_data()
+	await $GPTRequest.request_completed
+	print(dialogueResult)
+	var resource = DialogueManager.create_resource_from_text(dialogueResult)
+	DialogueManager.show_example_dialogue_balloon(resource, dialogue_start)
 
 func _input(_event):
 	if is_actionable && Input.is_action_pressed('use'):
