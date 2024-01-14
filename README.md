@@ -16,5 +16,5 @@ Also it shows number of more static interactions with pre-generated results.
 In Godot IDE switch to `main` scene and run the project (ctrl+R/cmd+R)
 
 ## References
-Dialogues are done via Dialogue Manager addon - https://github.com/nathanhoad/godot_dialogue_manager
-Backgrounds and NPCs are free assets from Craftpix - https://craftpix.net/
+1. Dialogues are done via Dialogue Manager addon - https://github.com/nathanhoad/godot_dialogue_manager
+2. Backgrounds and NPCs are free assets from Craftpix - https://craftpix.net/
