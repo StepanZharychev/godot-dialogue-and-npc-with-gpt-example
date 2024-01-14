@@ -11,4 +11,6 @@ Also it shows number of more static interactions with pre-generated results.
 2. Open it with Godot
 3. Install Dialogue Manager from `AssetLib` tab or simply follow instructions - https://github.com/nathanhoad/godot_dialogue_manager
 4. Create a directory `tokens` in project root, in this directory create a file named `openai`, place your token from above there
-5. In Godot IDE switch to `main` scene and run the project (ctrl+R/cmd+R)
+
+## How to run it
+In Godot IDE switch to `main` scene and run the project (ctrl+R/cmd+R)
